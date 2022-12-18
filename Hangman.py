@@ -1,5 +1,5 @@
 import random
-from tkinter import OUTSIDE
+
 
 word= random.choice(open("words.txt").read().split())
 word=word.lower()
